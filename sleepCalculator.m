@@ -6,10 +6,8 @@ amountOfHoursRemaining = input("How many hours of estimated work do you have rem
 amountOfTasksToComplete = input("How many assignments are remaining? ");
 time = clock;
 fix(time);
-currentHour = time(4);
 currentMinute = time(5);
-hoursMinutes = [currentHour, currentMinute];
-
+currentHour = time(4) + currentMinute / 60;
 sleepE = @(x) exp(-x); % boring equation, could be better
 fplot(sleepE, [0, 5]);
 
