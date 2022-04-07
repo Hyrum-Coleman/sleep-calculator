@@ -1,11 +1,12 @@
 % Sleep calculator script
 
 
-gaming = 2;
-trolling = 3;
-malding = -1;
 
-sleep = Quadratic(gaming, trolling, malding);
+amountOfHoursRemaining = input("How many hours of estimated work do you have remaining? ");
+amountOfTasksToComplete = input("How many assignments are remaining? ");
+
+
+
 
 
 
