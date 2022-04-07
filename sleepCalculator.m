@@ -4,7 +4,11 @@
 
 amountOfHoursRemaining = input("How many hours of estimated work do you have remaining? ");
 amountOfTasksToComplete = input("How many assignments are remaining? ");
-
+time = clock;
+fix(time);
+currentHour = time(4);
+currentMinute = time(5);
+hoursMinutes = [currentHour, currentMinute];
 
 
 
