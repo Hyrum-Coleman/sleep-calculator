@@ -10,7 +10,8 @@ currentHour = time(4);
 currentMinute = time(5);
 hoursMinutes = [currentHour, currentMinute];
 
-
+sleepE = @(x) exp(-x); % boring equation, could be better
+fplot(sleepE, [0, 5]);
 
 
 
