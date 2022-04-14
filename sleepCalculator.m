@@ -12,9 +12,12 @@ currentHour = time(4) + currentMinute / 60;
 sleepE = @(x) exp(-x); % boring equation, could be better actually so cringe lmao
 fplot(sleepE, [0, 5]);
 
-% Compute the single value
 
-% if statement directing to options
+%Combine tasks and hours of work
+% Combine current hour and hours since last sleep
+% Constrain workVal and timeVal
+
+% if statement with workVal and timeVal directing to options
 
 % Output script
 % option 1 grind it out
