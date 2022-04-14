@@ -20,7 +20,7 @@ fplot(sleepE, [0, 5]);
 % option 1 grind it out
 % option 2 take a nap (quantity?)
 % option 3 go to bed
-
+% option 4 finish some tasks
 
 
 function [posRoot, negRoot] = Quadratic(a, b, c)
@@ -33,9 +33,9 @@ end
 
 end
 
-function singleVal = TasksAndHours(amountOfHours, amountOfTasks)
+function workVal = TasksAndHours(amountOfHours, amountOfTasks)
 
-singleVal = 
+workVal = amountOfHours * amountOfTasks - (1/sqrt(amountOfHours * amountOfTasks + 1));
 
 end
 
