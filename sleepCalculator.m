@@ -31,6 +31,12 @@ else
     error("Roots are complex, aborting program") 
 end
 
+end
 
+function singleVal = TasksAndHours(amountOfHours, amountOfTasks)
+
+singleVal = 
 
 end
+
+
