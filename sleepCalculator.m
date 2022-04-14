@@ -11,8 +11,14 @@ currentHour = time(4) + currentMinute / 60;
 sleepE = @(x) exp(-x); % boring equation, could be better actually so cringe lmao
 fplot(sleepE, [0, 5]);
 
+% Compute the single value
 
+% if statement directing to options
 
+% Output script
+% option 1 grind it out
+% option 2 take a nap (quantity?)
+% option 3 go to bed
 
 
 
