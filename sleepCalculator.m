@@ -1,5 +1,5 @@
 % Sleep calculator script
-
+clear; clc; close all;
 
 
 amountOfHoursRemaining = input("How many hours of estimated work do you have remaining? ");
@@ -8,7 +8,7 @@ time = clock;
 fix(time);
 currentMinute = time(5);
 currentHour = time(4) + currentMinute / 60;
-sleepE = @(x) exp(-x); % boring equation, could be better
+sleepE = @(x) exp(-x); % boring equation, could be better actually so cringe lmao
 fplot(sleepE, [0, 5]);
 
 
