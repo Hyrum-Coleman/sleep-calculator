@@ -4,6 +4,7 @@ clear; clc; close all;
 
 amountOfHoursRemaining = input("How many hours of estimated work do you have remaining? ");
 amountOfTasksToComplete = input("How many assignments are remaining? ");
+hoursSinceLastSleep = input("How long has it been since you last slept? ");
 time = clock;
 fix(time);
 currentMinute = time(5);
@@ -23,4 +24,7 @@ if((b .^ 2) - (4 .* a .* c) >= 0 )
 else
     error("Roots are complex, aborting program") 
 end
+
+
+
 end
